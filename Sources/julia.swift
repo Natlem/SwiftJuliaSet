@@ -25,8 +25,8 @@ public class JuliaSet {
     }
 
     func printFractal() {
-        for i in 1...100 {
-            for j in 1...100 {
+        for i in 1...dimy {
+            for j in 1...dimx {
                 if getJuliaValue(ex : j, ey: i) == 1 {
                     print(" ", terminator:"")
                 }
